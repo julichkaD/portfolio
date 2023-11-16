@@ -9,7 +9,6 @@
   display: block;
   margin: 0 auto;
   text-align: center;
-  margin-top: 60px;
   line-height: 0.5;
 }
 
@@ -60,16 +59,15 @@ a {
   color: var(--primary-color);
 }
 .lorem {
-  display: flex;
-  line-height: 27px;
-  justify-content: space-between;
-  font-size: 18px;
-  padding: 30px;
-  margin: 13px;
-  text-indent: 20px;
+   line-height: 27px;
+   font-size: 18px;
+   text-align: center;
+  
+
+
 }
 
-#lorem-1 {
+/* #lorem-1 {
   flex: 1;
   border: 1px solid rgb(245, 242, 254);
   background-color: rgb(245, 242, 254);
@@ -83,10 +81,15 @@ a {
   background-color: rgb(245, 242, 254);
   border-radius: 4px;
   margin: 15px;
+} */
+#contact-me-footer {
+  text-align: center;
 }
+
 #contact-me-footer a {
   font-size: 30px;
   text-decoration: none;
+
 }
 
 .project-name {
@@ -108,4 +111,13 @@ a {
   border-radius: 4px;
   box-shadow: var(--box-shadow);
   
+}
+.img-fluid {
+  height: 300px;
+}
+.picture{
+  background-color: #f6f2fe;
+  border-radius: 10px;
+
+
 }
