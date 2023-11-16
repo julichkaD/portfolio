@@ -4,7 +4,7 @@
   --box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px 0px;
 }
 
-.container {
+.container-introduction {
   max-width: 900px;
   display: block;
   margin: 0 auto;
@@ -27,7 +27,7 @@ h3 {
   opacity: 0.7;
 }
 .btn {
-  margin-top: 60px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   border: none;
@@ -87,4 +87,25 @@ a {
 #contact-me-footer a {
   font-size: 30px;
   text-decoration: none;
+}
+
+.project-name {
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.description p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(33, 37, 41);
+}
+.project-link a {
+  font-size: 16px;
+  padding: 20px 15px;
+  background-color: var(--primary-color);
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  
 }
